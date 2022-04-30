@@ -1,0 +1,122 @@
+.hmPage{
+    margin-top:50px;
+    height:90vh;
+    width:100%;
+    display:flex;
+    background-repeat: no-repeat;
+}
+.hmText{
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    align-items: right;
+    color:#183e73;
+    width:50%;
+    float:left;
+    height:500px;
+    border:3px solid #183e73;
+    border-left:none;
+    border-right:none;
+    margin:20px;
+    margin-right:0;
+    margin-left:0;
+    padding-left:30px;
+    text-align:center;
+    padding-top:0;
+}
+.hmTitle{
+    font-family: 'Montserrat-700', sans-serif;
+    font-size:80px;
+    color:#2b2b3b;
+    margin-bottom:0;
+    padding:30px;
+    padding-left:0;
+    text-align:left;
+    padding-top:0;
+    margin-top:20px;
+}
+
+.hmPic{
+    width:50%;
+    float:right;
+    background-image: url('../../Assets/slanted.svg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    height:500px;
+    margin:20px;
+    margin-right:0;
+    display:flex;
+    margin-left:0;
+}
+
+
+.i{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    list-style:none;
+    align-items:center;
+}
+
+.slog{
+    text-align:left;
+    color:white;
+    font-size:60px;
+    padding:40px;
+    padding-right:60px;
+    margin-top:270px;
+    margin-left:40px;
+    padding-left:0;
+    border-top: 10px solid white;
+    border-image: linear-gradient(to right, #eee 50%, transparent 40%) 100% 1;
+
+}
+
+
+
+
+@media only screen and (max-width: 700px){
+    .hmPage{
+        flex-direction:column;
+        height:auto;
+    }
+    .hmText{
+        margin:0;
+        padding:0;
+        text-align:center;
+        margin:auto;
+        margin-top:80px;
+        font-size:60px;
+        width:100%;
+    }
+    .hmPic{
+        width:100%;
+        float:none;
+        height:auto;
+    }
+    .aj{
+        height:1000px;
+        width:auto;
+        margin:auto;
+    }
+
+    .hmTitle{
+        font-size:70px;
+        width:100%;
+    }
+    .hmPar{
+        font-size:30px;
+        font-family: 'Montserrat', sans-serif;
+    
+    }
+    .i{
+    margin:auto;
+        width:100%;
+        padding:40px;
+    }
+    .button{
+        margin:auto;
+        margin-top:20px;
+    }
+}
+

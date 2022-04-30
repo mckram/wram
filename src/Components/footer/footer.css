@@ -1,0 +1,60 @@
+.footer {
+    width: 100%;
+    border-top:1px solid #1d2679 ; position:fixed;
+    bottom:0;
+    left:0;
+    background-color: transparent;
+    padding:20px;
+    margin-bottom:20px;
+   }
+
+   .footer-info{
+    margin:auto;
+    float:left;
+    height:2rem;
+    width:auto;
+    display:flex;
+    flex-direction:row;
+}
+.social-container{
+    margin:auto;
+    position:relative;
+    float:right;
+    height:100%;
+    display:flex;
+    flex-direction:row;
+}
+.mck{
+    margin-right:10px;
+    height:20px;
+
+}
+.social{
+    color:black;
+    overflow:hidden;
+    font-size: 10px !important;
+}
+.ico{
+    display: inline;
+    padding:30px;
+}
+.fa{
+    font-size:20px;
+    color:black
+}
+@media only screen and (max-width: 576px){
+ .footer-info{
+     display:none;
+ }
+ .social-container{
+     float:none;
+     width:100%;
+     margin:0;
+ }
+ .icons{
+     width:100%;
+     justify-content:space-between;
+ }
+
+
+}

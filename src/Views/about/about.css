@@ -1,0 +1,66 @@
+.abCont{
+    display:flex;
+    height:auto;
+    width:100%;
+    padding-bottom:100px;
+    display:flex;
+    margin-top:50px;
+
+
+}
+.descP {
+  font-size: 45px;
+  text-align: center;
+  width:100%;
+  padding-left:40px;
+  padding-right:40px;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  float:right;
+  background-color:#214eb4;
+  background-image: url('../../Assets/bg.png')
+
+}
+.words{
+    color:white;
+    padding:30px;
+    float:right;
+    text-align:center;
+}
+
+.butH{
+    margin-left:150px;
+    width:45%;
+    height:auto;
+    display:flex;
+    align-items:center;
+    border-radius:10px 0 0 10px;
+    background-image: url('../../Assets/liq.svg');
+    background-size:cover;
+
+}
+.button{
+    width:50%;
+    text-align:left;
+    color:white;
+    font-size:60px;
+    padding-left:0;
+    transition: color 0.5s, transform 0.2s, background-color 0.2s;
+    border-top: 10px solid white;
+    border-image: linear-gradient(to right, #eee 50%, transparent 40%) 100% 1;
+
+}
+.button:active{
+    transform: translateY(3px)
+}
+  .button:after, .button:before{
+    border-radius: 3px
+}
+
+.button:hover{
+
+    background-color: transparent;
+    box-shadow: none;
+    color: offwhite;
+}
