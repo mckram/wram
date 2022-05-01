@@ -89,6 +89,9 @@
         font-size:60px;
         width:100%;
     }
+    .hmTitle{
+        text-align:center;
+    }
     .hmPic{
         width:100%;
         float:none;

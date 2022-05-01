@@ -16,8 +16,8 @@ const Ul = styled.ul`
   }
   @media (max-width: 800px) {
     flex-direction: column;
-    background-color: rgb(35, 43, 121);
-    color:rgb(35, 43, 121);
+    background-color: white;
+    color:white;
     text-align: center;
     position: fixed;
     transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
@@ -48,7 +48,7 @@ const StyledBurger = styled.div`
   div {
     width: 2rem;
     height: 0.25rem;
-    background-color: ${({ open }) => (open ? "white" : "white")};
+    background-color: ${({ open }) => (open ? "rgb(35, 43, 121)" : "rgb(35, 43, 121)")};
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.3s linear;

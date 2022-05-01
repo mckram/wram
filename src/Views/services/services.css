@@ -1,0 +1,48 @@
+.servBox{
+    width:100%;
+    height:auto;
+    margin-top:50px;
+    padding:30px;
+    padding-bottom:100px;
+    text-align:center;
+    margin:0;
+    display:flex;
+    align-items:center;
+    align-content:center;
+
+
+}
+
+.grid{
+    margin:auto;
+    width:100%;
+    border-radius:6px;
+    background-image: url('../../Assets/liq.svg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding:10px;
+
+}
+.servCol{
+    background-color:white;
+    padding:20px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.sT{
+    font-family: 'Montserrat-700', sans-serif;
+    font-size:40px;
+    background-color:#214eb4;
+    color:white;
+    margin:auto;
+    margin-bottom:30px;
+    width:70%;
+    padding:10px;
+    border-radius:6px;
+    
+}
+
+.sP{
+    font-family: 'Montserrat-700', sans-serif;
+    font-size:25px;
+    padding:20px;
+}

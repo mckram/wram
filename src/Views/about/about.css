@@ -4,7 +4,6 @@
     width:100%;
     padding-bottom:100px;
     display:flex;
-    margin-top:50px;
 
 
 }
@@ -12,6 +11,8 @@
   font-size: 45px;
   text-align: center;
   width:100%;
+  height:auto;
+  min-height:400px;
   padding-left:40px;
   padding-right:40px;
   margin:auto;
@@ -23,10 +24,11 @@
 
 }
 .words{
+    margin-top:50px;
     color:white;
-    padding:30px;
     float:right;
-    text-align:center;
+    text-align:left;
+    padding-right:50px;
 }
 
 .butH{
@@ -41,6 +43,7 @@
 
 }
 .button{
+    margin-top:90px;
     width:50%;
     text-align:left;
     color:white;

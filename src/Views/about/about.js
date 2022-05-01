@@ -12,7 +12,7 @@ const About = () => {
         </p>
         <Button
             variant="primary"
-            onClick={() => (window.location = "mailto:anuj.semite@gmail.com")}
+            onClick={() => (window.location = "mailto:wram@wassermanramsay.ca")}
             className="button"
           >
             

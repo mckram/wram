@@ -1,5 +1,7 @@
 import "./App.css";
 import Home from "./Views/home/home";
+import Services from "./Views/services/services";
+import ContactForm from "./Views/contact/contact";
 import Footers from "./Components/footer/footer";
 import Navbar from "./Components/navbar/navbar";
 import { Route, Routes, useLocation } from "react-router-dom";
@@ -17,6 +19,18 @@ function App() {
           key={location.pathname}
           path="/"
           element={<Home />}
+        />
+         <Route
+          location={location}
+          key={location.pathname}
+          path="/services"
+          element={<Services />}
+        />
+          <Route
+          location={location}
+          key={location.pathname}
+          path="/contact"
+          element={<ContactForm />}
         />
       </Routes>
     </div>

@@ -1,0 +1,119 @@
+/* Style inputs, select elements and textareas */
+input[type=text], select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    height:200px;
+  }
+  
+  
+  /* Style the submit button */
+  input[type=submit] {
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style the container */
+  .containerCont {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    padding-top:0;
+    padding-bottom:100px;
+    align-items: center;
+  }
+  .innerCont{
+    padding:20px;
+    padding-top: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color:#eaebef;
+    margin:auto;
+    width:70%;
+    height:550px;
+    background-image: url(../../Assets/line.svg)
+
+  }
+
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    width: 75%;
+    margin-top: 6px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:10px;
+    border-radius:4px;
+  }
+
+  .buttonCont{
+    width: 100%;
+    margin-top:20px;
+    text-align: center;
+    height: auto;
+  }
+  #button{
+    background: #4654a3;
+    color:white;
+    border:none;
+    max-width: 300px;
+    max-height: 100%;
+    width:100%;
+    height: 70px;
+    font-size: 100%;
+    text-align: center;
+    border-radius:4px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  }
+
+  #button:hover{
+    background: #1e2e8a; 
+    color:white;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  #underline{
+    background-color: #4654a3;
+    height:6px;
+    width:30%;
+    margin:auto;
+    margin-bottom:60px;
+  
+  }
+
+  #contTitle{
+      margin:auto;
+      width:50%;
+      text-align:center;
+      padding-bottom:20px;
+      font-size: 40px;
+      font-family: 'Montserrat-700', sans-serif;
+    font-size:50px;
+    }
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+

@@ -19,6 +19,7 @@
     padding-left:30px;
     padding-right:30px;
     text-decoration:none;
+    color:rgb(35, 43, 121);
     font-family: 'Montserrat-700', sans-serif;
 }
 .Links{
@@ -26,6 +27,7 @@
     font-size:30px;
     padding-left:30px;
     padding-right:30px;
+    color:rgb(35, 43, 121);;
     text-decoration: underline 0.15em;
     font-family: 'Montserrat-700', sans-serif;
 
@@ -40,12 +42,9 @@
 
 @media (max-width: 800px) {
 
-.LinksA{
-color:white !important;
-}
-.Links{
-color:white !important;
-
+.log{
+    height:90px;
+    width:auto;
 }
 
 
