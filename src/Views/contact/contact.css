@@ -36,16 +36,18 @@ input[type=text], select{
     padding-top:0;
     padding-bottom:100px;
     align-items: center;
+    background-image:url(../../Assets/1.svg)
   }
   .innerCont{
+    border-radius:6px;
+    background-color:#214eb4;
+    background-image: url('../../Assets/bg.png');
     padding:20px;
-    padding-top: 30px;
+    padding-top: 50px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-    background-color:#eaebef;
     margin:auto;
-    width:70%;
+    width:90%;
     height:550px;
-    background-image: url(../../Assets/line.svg)
 
   }
 
@@ -66,14 +68,14 @@ input[type=text], select{
     height: auto;
   }
   #button{
-    background: #4654a3;
+    background: #4a6fc3;
     color:white;
     border:none;
     max-width: 300px;
     max-height: 100%;
     width:100%;
     height: 70px;
-    font-size: 100%;
+    font-size: 25px;;
     text-align: center;
     border-radius:4px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
@@ -82,6 +84,11 @@ input[type=text], select{
   #button:hover{
     background: #1e2e8a; 
     color:white;
+        border:10px solid white;
+        opacity: 1;
+        transition: border 0.5s, transform 0.2s, background-color 0.2s;
+        box-shadow: none;
+        color: offwhite;
   }
   
   /* Clear floats after the columns */

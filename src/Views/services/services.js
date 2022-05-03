@@ -1,25 +1,10 @@
 import React from "react";
 import "./services.css";
 import { Grid, Row, Col } from "react-flexbox-grid";
-import { motion } from "framer-motion";
+
 
 const Services = () => {
-    const variants = {
-        initial: {
-          opacity: 0,
-          y: 8,
-        },
-        enter: {
-          opacity: 1,
-          y: 0,
-          transition: {
-            duration: 0.4,
-            ease: [0.61, 1, 0.88, 1],
-          },
-        },
-      };
   return (
-    <motion.div initial="initial" animate="enter" variants={variants}>
     <div className ='servBox' >
       <Grid className = 'grid' fluid>
         <Row >
@@ -70,7 +55,6 @@ const Services = () => {
         </Row>
       </Grid>
     </div>
-    </motion.div>
   );
 };
 
